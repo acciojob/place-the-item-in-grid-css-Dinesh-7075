@@ -1,13 +1,13 @@
 
 /* Your CSS Code here. */
 .holder {
-	width:50%;
+	width:100%;
 	display:grid;
-	grid-template-columns:repeat(2, 25%);
+	grid-template-columns:100px 100px;
+	grid-template-rows:100px 100px;
 }
 
 .item{
 	background-color:blue;
-	justify-content:end;
-	gap:30px;
+	justify-content:space-evenly;
 }
